@@ -1,0 +1,72 @@
+.gcz-post-item li a{
+	border-bottom: 1px solid #bbb;
+	display: inline-block;
+	padding: 10px;
+	width: 100%;
+}
+.gcz-post-item li a {
+	color: #414141;
+}
+.gcz-post-item li a:hover {
+	text-decoration: none;
+}
+.gcz-post-item li a:hover {
+	text-decoration:underline;
+}
+.gcz-post-item li:last-child {
+	margin-bottom: 0;
+}
+.gcz-post-item {
+  height: 340px;
+  overflow: hidden;
+  margin:0px;
+  padding:0px;
+}
+.gcz-post-item .post-date {
+	background: #333 none repeat scroll 0 0;
+	color: #fff;
+	display: block;
+	float: left;
+	font-size: 14px;
+	font-weight: bold;
+	margin-right: 8px;
+	padding: 2px 8px;
+}
+.gcz-news-scroll {
+  background: #ccc none repeat scroll 0 0;
+  color: #000;
+  font-size: 16px;
+  margin-bottom: 15px;
+  padding: 10px 0;
+  position: relative;
+}
+.gcz-news-scroll .scroll-label {
+	background: #666;
+	left: 0;
+	padding: 10px;
+	position: absolute;
+	top: 0;
+/* 	font-size: 20px; */
+}
+.gcz-news-scroll {
+	overflow: hidden;
+}
+.gcz-news-scroll ul {
+	margin: 0;
+	padding: 0;
+	width: 100%;
+}
+.gcz-news-scroll ul li {
+	float: left;
+	list-style: none;
+	margin: 0 20px;
+}
+.gcz-news-scroll ul li a {
+	color: #000;
+	font-size: 16px;
+}
+.gcz-news-scroll span.post-date {
+  background: #555;
+  color: #fff;
+  padding: 2px 5px;
+}
